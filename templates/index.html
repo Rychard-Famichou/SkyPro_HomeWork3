@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 bg-black text-white vh-100 d-flex flex-column p-3">
+            <h2 class="mb-4"><span class="badge text-black bg-white me-3">B</span>Меню</h2>
+            <nav class="nav flex-column nav-pills">
+                <a class="nav-link active" aria-current="page">Главная</a>
+                <a class="nav-link text-white" href="catalog">Категории</a>
+                <a class="nav-link text-white" href="orders">Заказы</a>
+                <a class="nav-link text-white" href="contacts">Контакты</a>
+            </nav>
+            <div class="dropup mt-auto mb-3">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                   id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="false">
+                    <strong><img src="../img/album_rick_astley.jpg" class="rounded-circle me-3" alt="Аватар" width="40" height="40">Пользователь</strong>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser">
+                    <li><a class="dropdown-item" href="profile">Профиль</a></li>
+                    <li><a class="dropdown-item" href="settings">Настройки</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Выйти</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-10 mt-5">
+            <div class="row text-center">
+                <h2>Главная</h2>
+                <p>Вы находитесь на сайте, предназначеном для продажи товаров.</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card m-5">
+                        <div class="card-header text-center">
+                            <h4>Товар 1</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title text-center">$ 100</h2>
+                            <p class="card-text">10 users included, 2 GB of storage, Email support, Help center
+                                access</p>
+                            <a href="#" class="btn btn-outline-primary w-100">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card m-5">
+                        <div class="card-header text-center">
+                            <h4>Товар 1</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title text-center">$ 100</h2>
+                            <p class="card-text">10 users included, 2 GB of storage, Email support, Help center
+                                access</p>
+                            <a href="#" class="btn btn-outline-primary w-100">Купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card m-5">
+                        <div class="card-header text-center">
+                            <h4>Товар 1</h4>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title text-center">$ 100</h2>
+                            <p class="card-text">10 users included, 2 GB of storage, Email support, Help center
+                                access</p>
+                            <a href="#" class="btn btn-outline-primary w-100">Купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
